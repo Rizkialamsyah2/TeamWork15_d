@@ -23,17 +23,6 @@
     display: none;
   }
   
-  .menu-icon {
-    color:red;
-    float:left;
-    display:none;
-    font-size: 25px;
-    padding: 21px 0;
-  }
-  
-  .clear {
-    clear: left;
-  }
   
   .container {
     max-width: 1178px;
@@ -116,7 +105,6 @@
     animation-duration: 3s;
     float: left;
     color: white;
-    padding-left: 20px;
   }
   
   .top-wrapper p {
@@ -126,7 +114,6 @@
     float: left;
     color: white;
     padding-top: 20px;
-    padding-left: 20px;
   }
   
   .btn-wrapper {
@@ -176,10 +163,12 @@
     position :fixed;
     top: 0;
     z-index: 10;
+    overflow: hidden;
+    text-decoration: none;
   }
   
-  .logo {
-    width: 150px;
+  .header-left img {
+    height: 60px;
   }
   
   .header-left {
@@ -188,16 +177,15 @@
   
   .header-right {
     float: right;
-    margin-right: -25px;
   }
   
   .header-right a {
     line-height: 65px;
-    padding: 0 25px;
+    padding: 0 12px;
     color: white;
-    display: block;
     float: left;
     transition: all 0.5s;
+    text-decoration: none;
   }
   
   .header-right a:hover {
@@ -269,15 +257,13 @@
 
   /* Bagian Awal Risna */
   footer img {
-    height: 100px;
-    width: 200px;
+    height: 60px;
     padding-left: 55px;
   }
   
   footer {
     width: 100%;
-    height: 290px;
-    padding-top: 30px;
+    height: 190px;
     background-color: rgba(34, 49, 52, 0.9);
     float: left;
   }
@@ -299,7 +285,8 @@
 footer p {
   color: white;
   letter-spacing: 3px;
-  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
 }
   .contack {
     float: left;
@@ -354,13 +341,13 @@ footer p {
   /* Bagian Awal Rivan Adi */
   .message-wrapper {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 70px;
     text-align: center;
     position: relative;
   }
   .message-wrapper h2 {
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     text-align: center;
     position: relative;
   }
